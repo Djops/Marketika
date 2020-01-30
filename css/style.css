@@ -292,7 +292,7 @@ body {
 }
 
 .section-plans {
-    padding-top   : 120px;
+    padding-top: 120px;
 }
 
 .section-plans__title {
@@ -407,12 +407,12 @@ body {
 
 
 .section-free {
-    background: linear-gradient(to right, #FE985B, #FE4FA7);
+    background : linear-gradient(to right, #FE985B, #FE4FA7);
     padding-top: 120px;
-    
+
 }
 
-.section-inner__free{
+.section-inner__free {
     width         : 1180px;
     margin        : 0 auto;
     position      : relative;
@@ -423,22 +423,22 @@ body {
 
 
 .section-free__title {
-    font-size  : 66px;
-    line-height: 60px;
-    font-weight: bold;
-    text-align : center;
+    font-size    : 66px;
+    line-height  : 60px;
+    font-weight  : bold;
+    text-align   : center;
     margin-bottom: 26px;
-    color: #ffffff;
+    color        : #ffffff;
 }
 
 .section-free__description {
-    font-family     : 'Montserrat', sans-serif;
-    font-size  : 20px;
-    line-height: 30px;
-    font-weight: lighter;
-    text-align : center;
-    width: 50%;
-    margin: 0 auto;
+    font-family  : 'Montserrat', sans-serif;
+    font-size    : 20px;
+    line-height  : 30px;
+    font-weight  : lighter;
+    text-align   : center;
+    width        : 50%;
+    margin       : 0 auto;
     margin-bottom: 40px;
 }
 
@@ -456,7 +456,7 @@ body {
     text-decoration : none;
     text-align      : center;
     align-self      : center;
-    margin-bottom: 120px;
+    margin-bottom   : 120px;
 }
 
 /* /Free  */
@@ -467,44 +467,52 @@ body {
 
 /* Footer */
 
-.section-footer{
+.section-footer {}
 
+
+.section-inner {}
+
+
+.section-footer__logo {
+    text-align: center;
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: bold;
+}
+
+.section-footer__nav, li ,a{
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+
+    
+}
+
+.test{
+   color: #FE4FA7;
 }
 
 
-.section-inner{
-
+.section-footer__nav {
+    display        : flex;
+    justify-content: center;
 }
 
 
-.section-footer__logo{
-
+.section-footer__copyright_and_links {
+    display: flex;
+    justify-content: space-between;
 }
 
 
-.section-footer__nav{
-
-}
+.section-footer__copyright_and_linx-copyright {}
 
 
-.section-footer__copyright_and_links{
-
-}
+.section-footer__copyright_and_linx-links {}
 
 
-.section-footer__copyright_and_linx-copyright{
-
-}
-
-
-.section-footer__copyright_and_linx-links{
-
-}
-
-
-.helper-links{
-
-}
+.helper-links {}
 
 
 /* / Footer */
